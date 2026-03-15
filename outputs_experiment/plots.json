@@ -1,0 +1,8 @@
+{
+  "loss_curves": "outputs_experiment/loss_curves.png",
+  "grad_norm_curves": "outputs_experiment/grad_norm_curves.png",
+  "price_error_curves": "outputs_experiment/price_error_curves.png",
+  "socm_y0_curve": "outputs_experiment/socm_y0_curve.png",
+  "bsde_y0_curve": "outputs_experiment/bsde_y0_curve.png",
+  "metrics_bar": "outputs_experiment/metrics_bar.png"
+}

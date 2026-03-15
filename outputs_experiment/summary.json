@@ -1,0 +1,83 @@
+{
+  "config": {
+    "epochs": 100,
+    "batch_size": 1024,
+    "lr": 0.001,
+    "hidden_size": 64,
+    "depth": 2,
+    "seed": 42,
+    "device": "",
+    "output_dir": "outputs_experiment",
+    "T": 1.0,
+    "N": 50,
+    "d": 1,
+    "r": 0.05,
+    "sigma": 0.2,
+    "S0": 100.0,
+    "strike": 100.0,
+    "grad_batches": 20,
+    "eval_interval": 10,
+    "eval_batch_size": 512,
+    "plot": true
+  },
+  "summary": {
+    "black_scholes_price": 10.450580596923828,
+    "socm": {
+      "price_estimate": 11.537579536437988,
+      "price_error": 1.0869989395141602,
+      "price_rel_error": 0.10401325833802091,
+      "z_mse": 32.645294189453125,
+      "epochs_to_10pct_loss": 12,
+      "epochs_to_1pct_loss": -1,
+      "grad_variance": 713.2517875770459,
+      "loss_stats": {
+        "start": 1731.5350341796875,
+        "end": 32.584510803222656,
+        "min": 31.2751522064209,
+        "argmin_epoch": 42,
+        "mean": 131.0077912902832,
+        "std": 299.61569241857234
+      },
+      "grad_norm_stats": {
+        "start": 11687.8662109375,
+        "end": 24.86076545715332,
+        "min": 6.849068641662598,
+        "argmin_epoch": 93,
+        "mean": 1285.4530716133117,
+        "std": 2398.1346053398884
+      }
+    },
+    "bsde": {
+      "price_estimate": 0.09964950382709503,
+      "price_error": 10.350931093096733,
+      "price_rel_error": 0.9904646919954962,
+      "epochs_to_10pct_loss": -1,
+      "epochs_to_1pct_loss": -1,
+      "grad_variance": 10899.468485869187,
+      "loss_stats": {
+        "start": 614.24169921875,
+        "end": 150.78912353515625,
+        "min": 142.42652893066406,
+        "argmin_epoch": 97,
+        "mean": 171.64011642456055,
+        "std": 60.67381447346791
+      },
+      "grad_norm_stats": {
+        "start": 7173.8330078125,
+        "end": 187.0817413330078,
+        "min": 22.248231887817383,
+        "argmin_epoch": 63,
+        "mean": 712.5925081062317,
+        "std": 1124.901409066173
+      },
+      "y0_stats": {
+        "start": 0.0010000000474974513,
+        "end": 0.09964950382709503,
+        "min": 0.0010000000474974513,
+        "argmin_epoch": 1,
+        "mean": 0.05032899837358855,
+        "std": 0.02875932595517558
+      }
+    }
+  }
+}
